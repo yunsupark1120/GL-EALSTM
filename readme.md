@@ -11,7 +11,7 @@ All experiments are conducted with a framework [`neuralhydrology`](https://githu
 
 To train the model, follow the steps below:
 
-1. Clone the repository
+1. Clone the repository and create a folder named `data` in the directory.
 
 2. Have the NetCDF files stored in at the directory `data/time_series/{basin_id}.nc`
 
@@ -45,6 +45,7 @@ Tune the following parameters in the `config.yml` file:
 4. `{train/validation/test}_basin_file`: file directory for the list of the basin ids to be used for training, validation and testing
 
 The rest of the hyperparameters are also available to be tuned in the configuration file.
+
 
 
 
