@@ -43,7 +43,8 @@ Tune the following parameters in the `config.yml` file:
 
 ## 3. Training Data
 
-The raw data used for training is available in the [google drive](https://drive.google.com/drive/folders/1fMIZ_zZVNo05FsV3rhGibH9V1WYjnNHI).
+The raw data used for training is available in the [google drive](https://drive.google.com/drive/folders/1fMIZ_zZVNo05FsV3rhGibH9V1WYjnNHI](https://drive.google.com/drive/folders/1fMIZ_zZVNo05FsV3rhGibH9V1WYjnNHI?usp=drive_link).
 In order to reproduce the same results showcased in the paper, it is encouraged to follow the described preprocessing procedure and convert the processed data to NetCDF format.
+
 
 
