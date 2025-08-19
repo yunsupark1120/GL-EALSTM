@@ -1,5 +1,7 @@
 # GAGEii Modeling
 
+This is an official repository for reproducing the results demonstrated in the paper Using Entity-Aware LSTM to Enhance Streamflow Predictions in Transboundary and Large Lake Basins.
+
 ## 1. How to train the model
 
 To train the model, follow the steps below:
@@ -42,3 +44,4 @@ Tune the following parameters in the `config.yml` file:
 *This file should be formatted already when cloning the repository*
 
 **The rest of the configuration settings are expected to be the same for all the models.**
+
