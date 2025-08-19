@@ -12,8 +12,6 @@ To train the model, follow the steps below:
 
 3. Have the static files stored in the directory `data/attributes/attributes.csv`
 
-*This file should be present in the repository when cloning*
-
 4. Configure the `config.yml` file with the desired parameters. For more information on the parameters, refer to the [Config.yml](#2-configyml) section. 
 *Chnging the name of the file might result in errors*
 
@@ -41,7 +39,11 @@ Tune the following parameters in the `config.yml` file:
 
 4. `{train/validation/test}_basin_file`: file directory for the list of the basin ids to be used for training, validation and testing
 
-*This file should be formatted already when cloning the repository*
-
 **The rest of the configuration settings are expected to be the same for all the models.**
+
+## 3. Training Data
+
+The raw data used for training is available in the [google drive](https://drive.google.com/drive/folders/1fMIZ_zZVNo05FsV3rhGibH9V1WYjnNHI).
+In order to reproduce the same results showcased in the paper, it is encouraged to follow the described preprocessing procedure and convert the processed data to NetCDF format.
+
 
