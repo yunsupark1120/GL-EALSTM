@@ -1,6 +1,6 @@
 # GAGEii Modeling
 
-This is an official repository for reproducing the results demonstrated in the paper Using Entity-Aware LSTM to Enhance Streamflow Predictions in Transboundary and Large Lake Basins.
+This is an official repository for reproducing the results demonstrated in the paper [Using Entity-Aware LSTM to Enhance Streamflow Predictions in Transboundary and Large Lake Basins](https://www.mdpi.com/2306-5338/12/10/261).
 
 The raw data used for training is available in the [google drive](https://drive.google.com/drive/folders/1fMIZ_zZVNo05FsV3rhGibH9V1WYjnNHI?usp=sharing).
 In order to reproduce the same results showcased in the paper, it is encouraged to follow the described preprocessing procedure and convert the processed data to NetCDF format.
@@ -45,6 +45,7 @@ Tune the following parameters in the `config.yml` file:
 4. `{train/validation/test}_basin_file`: file directory for the list of the basin ids to be used for training, validation and testing
 
 The rest of the hyperparameters are also available to be tuned in the configuration file.
+
 
 
 
